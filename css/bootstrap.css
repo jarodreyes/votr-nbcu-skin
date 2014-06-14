@@ -1405,8 +1405,15 @@ body {
   font-weight: 300;
 }
 .selfies {
-  position: absolute;
-  left: 390px;
+  float: left;
+  margin-left: 390px;
+  width: 300px;
+}
+.votr-graph {
+  float: left;
+  width: 550px;
+  display: block;
+  margin: 20px;
 }
 .thumbnail {
   position: relative;
